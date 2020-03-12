@@ -26,7 +26,7 @@ Once you have it working in the console, write an event listener that will use t
 
 **YOUR NOTES**
 ```
-
+Added .target to element in helper function.
 ```
 
 ## Deliverable 2: Create Player
@@ -54,5 +54,7 @@ You can decide if you'd like to use *event delegation* to handle this, or if you
 
 **YOUR NOTES**
 ```
+I used delegation for event listening. 
 
+I used RegEx to get the current number of likes from the inner HTML then interpolated that value back into the inner HTML while adding 1.
 ```
